@@ -1,0 +1,160 @@
+/*-------*/
+/* Fonts */
+/*-------*/
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-3";
+  src:url("./fonts/untitled-font-3.eot");
+  src:url("./fonts/untitled-font-3.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/untitled-font-3.woff") format("woff"),
+    url("./fonts/untitled-font-3.ttf") format("truetype"),
+    url("./fonts/untitled-font-3.svg#untitled-font-3") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-3" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-3" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\61";
+}
+.icon-twitter:before {
+  content: "\62";
+}
+
+
+/*--------*/
+/* Global */
+/*--------*/
+
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+/*----------*/
+/* Main CSS */
+/*----------*/
+
+/*#quote-box {
+  background-color: #00d8ff;
+  min-height: 300px;
+  max-width: 500px;
+  padding: 20px;
+  width: calc(100% - 40px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+#quote-box {
+  max-width: 500px;
+  width: calc(100% - 30px);
+  margin-right: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.quoteContent {
+  padding: 20px;
+  background-color: #00d8ff;
+  width: 100%;
+  min-height: 200px;
+}
+
+.quoteContent p {
+  color: black;
+}
+
+#text {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+#author {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.quoteBtns {
+  margin-top: 20px;
+}
+
+#tweet-quote {
+  display: inline-block;
+  font-size: 34px;
+  padding: 0px 3px;
+  max-height: 38px;
+  color: black;
+  background-color: #00d8ff;
+}
+
+#twitterBtn:hover {
+  text-decoration: none;
+  color: black;
+}
+
+#twitterBtn:focus {
+  text-decoration: none;
+  color: black;
+}
+
+#new-quote {
+  background-color: #00d8ff;
+  border: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  float: right;
+}
+
+#new-quote:focus {
+  outline: none;
+}
+
+.githubLink {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: underline;
+  font-size: 17px;
+  color: #00d8ff;
+}
+
+.githubLink:hover {
+  color: #00d8ff;
+}
