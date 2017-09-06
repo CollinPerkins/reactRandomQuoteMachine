@@ -43,7 +43,7 @@ export default class App extends Component {
           <a id="tweet-quote" className="icon-twitter"href={`https://twitter.com/intent/tweet?text=${this.state.quoteText}-${this.state.quoteAuthor}`} target="_blank"></a>
           <button id="new-quote" onClick={this.getQuote}>New Quote</button>
         </div>
-        <a href="https://github.com/CollinPerkins/reactRandomQuote" className="githubLink" target="_blank">GitHub</a>
+        <a href="https://github.com/CollinPerkins/reactRandomQuoteMachine" className="githubLink" target="_blank">GitHub</a>
       </div>
     );
   }
